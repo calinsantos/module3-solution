@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assigment Solution for Module 3</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<style>
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+/********** Xtra small devices only **********/
+@media (max-width: 767px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+  }
+  .col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 74.99%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html" class="pull-left"><h1>Food, LLC</h1></a>
+          </div>
+          <button type="button" class="navbar-toggle collpased" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-center">
+             <li>
+               <a href="#Chicken" class="hidden-lg hidden-md hidden-sm"><div><strong> Chicken</strong><br/></div></a>
+             </li>
+             <li>
+               <a href="#Beef" class="hidden-lg hidden-md hidden-sm"><div><strong> Beef</strong><br/></div></a>
+             </li>
+             <li>
+               <a href="#Sushi" class="hidden-lg hidden-md hidden-sm"><div><strong> Sushi</strong><br/></div></a>
+             </li>
+           </ul><!-- #nav-list -->
+        </div> <!--.collapse .navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+
+  <p class="text-center"><b>Our Menu</p>
+  
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div id="Chicken"><h2><strong>Chicken</strong></h2><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestiae veritatis dolores a modi, molestias porro quibusdam quas nulla id voluptatem officia eveniet sit repellendus minima eaque tempore ratione sequi pariatur. Laborum temporibus delectus, dolorum rem unde? Ullam expedita accusantium earum nesciunt provident consectetur dignissimos fugit enim odio, quod nulla hic doloribus ea omnis qui ipsam velit explicabo, dicta in fugiat, eligendi aliquam! Qui doloremque provident commodi est molestias sapiente explicabo dolores quam accusamus architecto necessitatibus odit quaerat, recusandae aut nemo autem, impedit velit cum corporis voluptate culpa. Officia dolores quis eum ipsa voluptas reprehenderit fugiat nesciunt modi doloribus commodi, tenetur porro necessitatibus. Sint officiis perferendis soluta pariatur corporis possimus natus laboriosam quibusdam neque molestiae dolores eveniet iusto harum perspiciatis, in, quas omnis optio excepturi impedit sunt, amet atque laborum vel totam. Reiciendis nulla consequatur officia ipsum ipsa soluta, laboriosam vel dolorem eveniet a ab fugiat est necessitatibus animi similique illum cum adipisci ipsam facere minima fugit aut placeat? Quisquam, veniam aliquam, magnam ut facere corporis libero tempora quidem illum enim quibusdam exercitationem. Tenetur animi vel reprehenderit ad autem quam quidem voluptatum, et amet reiciendis debitis aperiam! Iusto mollitia saepe libero incidunt temporibus obcaecati, commodi est. Debitis quis placeat commodi error, libero odio similique beatae illo temporibus nemo ad explicabo saepe fuga repellendus eum? Aperiam voluptatum numquam a nisi doloremque incidunt porro nobis, perferendis modi maiores dignissimos dolore ipsa, aspernatur eius fuga voluptas, quasi reiciendis. Doloribus mollitia, explicabo. Veritatis quo aspernatur, laborum quaerat? Cupiditate vel consectetur animi aliquam beatae, nostrum odio voluptatum veritatis molestiae quos necessitatibus doloremque, expedita sint, quisquam quae voluptates! Cum tempore, at quia minima deserunt esse odit provident facilis voluptates nihil, nobis. Animi amet ullam eum vitae perferendis explicabo, numquam ratione, nesciunt tenetur eaque repellendus! Quos libero quidem perferendis eos temporibus impedit laboriosam cum aspernatur, laborum tenetur, ut quae eius architecto amet provident ex facilis? Excepturi voluptatum ad perferendis, eveniet ipsam voluptates culpa temporibus. Officia amet dolor obcaecati provident animi, quo architecto velit dicta odit porro? Id deserunt ipsa voluptatem aliquid blanditiis corporis, quasi debitis repudiandae iste assumenda hic eaque placeat dolorum doloremque numquam dolore sunt, sint ducimus autem neque provident fugit eveniet asperiores illum? Earum magnam iure, ipsum quas nemo! Ipsam sapiente velit in distinctio cumque neque eos voluptate necessitatibus, non, tempora, impedit. Fugit illum sit quaerat voluptatibus, soluta doloribus praesentium non, error accusantium tempore culpa fugiat minus, maiores aliquid odit dolorem tempora adipisci laboriosam esse! Ullam quisquam, repellat sint ea quibusdam explicabo doloremque, incidunt eligendi molestiae iure animi rerum nostrum quasi beatae, sequi dolorem earum placeat eius corrupti perspiciatis consequatur soluta nihil magnam quae. Laudantium blanditiis quo temporibus a debitis, illum eos nihil officia id enim nam ad esse, suscipit, laborum, veniam ea voluptatum deleniti placeat. Quos quo, vel. Enim repellendus obcaecati, nam reprehenderit recusandae a, laboriosam, quibusdam quam perferendis aut neque! Magnam, expedita dolorem nulla sint dolore earum assumenda, cupiditate adipisci explicabo. Eveniet dicta obcaecati nulla fugit vero doloremque consequatur at maxime quod temporibus, voluptatem cupiditate nisi impedit accusamus iure! Et quia laudantium beatae.<br/>(End of Chicken section)  <a href="#header-nav">Back To Top</a></div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div id="Beef"><h2><strong>Beef</strong></h2><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestiae veritatis dolores a modi, molestias porro quibusdam quas nulla id voluptatem officia eveniet sit repellendus minima eaque tempore ratione sequi pariatur. Laborum temporibus delectus, dolorum rem unde? Ullam expedita accusantium earum nesciunt provident consectetur dignissimos fugit enim odio, quod nulla hic doloribus ea omnis qui ipsam velit explicabo, dicta in fugiat, eligendi aliquam! Qui doloremque provident commodi est molestias sapiente explicabo dolores quam accusamus architecto necessitatibus odit quaerat, recusandae aut nemo autem, impedit velit cum corporis voluptate culpa. Officia dolores quis eum ipsa voluptas reprehenderit fugiat nesciunt modi doloribus commodi, tenetur porro necessitatibus. Sint officiis perferendis soluta pariatur corporis possimus natus laboriosam quibusdam neque molestiae dolores eveniet iusto harum perspiciatis, in, quas omnis optio excepturi impedit sunt, amet atque laborum vel totam. Reiciendis nulla consequatur officia ipsum ipsa soluta, laboriosam vel dolorem eveniet a ab fugiat est necessitatibus animi similique illum cum adipisci ipsam facere minima fugit aut placeat? Quisquam, veniam aliquam, magnam ut facere corporis libero tempora quidem illum enim quibusdam exercitationem. Tenetur animi vel reprehenderit ad autem quam quidem voluptatum, et amet reiciendis debitis aperiam! Iusto mollitia saepe libero incidunt temporibus obcaecati, commodi est. Debitis quis placeat commodi error, libero odio similique beatae illo temporibus nemo ad explicabo saepe fuga repellendus eum? Aperiam voluptatum numquam a nisi doloremque incidunt porro nobis, perferendis modi maiores dignissimos dolore ipsa, aspernatur eius fuga voluptas, quasi reiciendis. Doloribus mollitia, explicabo. Veritatis quo aspernatur, laborum quaerat? Cupiditate vel consectetur animi aliquam beatae, nostrum odio voluptatum veritatis molestiae quos necessitatibus doloremque, expedita sint, quisquam quae voluptates! Cum tempore, at quia minima deserunt esse odit provident facilis voluptates nihil, nobis. Animi amet ullam eum vitae perferendis explicabo, numquam ratione, nesciunt tenetur eaque repellendus! Quos libero quidem perferendis eos temporibus impedit laboriosam cum aspernatur, laborum tenetur, ut quae eius architecto amet provident ex facilis? Excepturi voluptatum ad perferendis, eveniet ipsam voluptates culpa temporibus. Officia amet dolor obcaecati provident animi, quo architecto velit dicta odit porro? Id deserunt ipsa voluptatem aliquid blanditiis corporis, quasi debitis repudiandae iste assumenda hic eaque placeat dolorum doloremque numquam dolore sunt, sint ducimus autem neque provident fugit eveniet asperiores illum? Earum magnam iure, ipsum quas nemo! Ipsam sapiente velit in distinctio cumque neque eos voluptate necessitatibus, non, tempora, impedit. Fugit illum sit quaerat voluptatibus, soluta doloribus praesentium non, error accusantium tempore culpa fugiat minus, maiores aliquid odit dolorem tempora adipisci laboriosam esse! Ullam quisquam, repellat sint ea quibusdam explicabo doloremque, incidunt eligendi molestiae iure animi rerum nostrum quasi beatae, sequi dolorem earum placeat eius corrupti perspiciatis consequatur soluta nihil magnam quae. Laudantium blanditiis quo temporibus a debitis, illum eos nihil officia id enim nam ad esse, suscipit, laborum, veniam ea voluptatum deleniti placeat. Quos quo, vel. Enim repellendus obcaecati, nam reprehenderit recusandae a, laboriosam, quibusdam quam perferendis aut neque! Magnam, expedita dolorem nulla sint dolore earum assumenda, cupiditate adipisci explicabo. Eveniet dicta obcaecati nulla fugit vero doloremque consequatur at maxime quod temporibus, voluptatem cupiditate nisi impedit accusamus iure! Et quia laudantium beatae.<br/>(End of Beef section)  <a href="#header-nav">Back To Top</a></div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <div id="Sushi"><h2><strong>Sushi</strong></h2><br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestiae veritatis dolores a modi, molestias porro quibusdam quas nulla id voluptatem officia eveniet sit repellendus minima eaque tempore ratione sequi pariatur. Laborum temporibus delectus, dolorum rem unde? Ullam expedita accusantium earum nesciunt provident consectetur dignissimos fugit enim odio, quod nulla hic doloribus ea omnis qui ipsam velit explicabo, dicta in fugiat, eligendi aliquam! Qui doloremque provident commodi est molestias sapiente explicabo dolores quam accusamus architecto necessitatibus odit quaerat, recusandae aut nemo autem, impedit velit cum corporis voluptate culpa. Officia dolores quis eum ipsa voluptas reprehenderit fugiat nesciunt modi doloribus commodi, tenetur porro necessitatibus. Sint officiis perferendis soluta pariatur corporis possimus natus laboriosam quibusdam neque molestiae dolores eveniet iusto harum perspiciatis, in, quas omnis optio excepturi impedit sunt, amet atque laborum vel totam. Reiciendis nulla consequatur officia ipsum ipsa soluta, laboriosam vel dolorem eveniet a ab fugiat est necessitatibus animi similique illum cum adipisci ipsam facere minima fugit aut placeat? Quisquam, veniam aliquam, magnam ut facere corporis libero tempora quidem illum enim quibusdam exercitationem. Tenetur animi vel reprehenderit ad autem quam quidem voluptatum, et amet reiciendis debitis aperiam! Iusto mollitia saepe libero incidunt temporibus obcaecati, commodi est. Debitis quis placeat commodi error, libero odio similique beatae illo temporibus nemo ad explicabo saepe fuga repellendus eum? Aperiam voluptatum numquam a nisi doloremque incidunt porro nobis, perferendis modi maiores dignissimos dolore ipsa, aspernatur eius fuga voluptas, quasi reiciendis. Doloribus mollitia, explicabo. Veritatis quo aspernatur, laborum quaerat? Cupiditate vel consectetur animi aliquam beatae, nostrum odio voluptatum veritatis molestiae quos necessitatibus doloremque, expedita sint, quisquam quae voluptates! Cum tempore, at quia minima deserunt esse odit provident facilis voluptates nihil, nobis. Animi amet ullam eum vitae perferendis explicabo, numquam ratione, nesciunt tenetur eaque repellendus! Quos libero quidem perferendis eos temporibus impedit laboriosam cum aspernatur, laborum tenetur, ut quae eius architecto amet provident ex facilis? Excepturi voluptatum ad perferendis, eveniet ipsam voluptates culpa temporibus. Officia amet dolor obcaecati provident animi, quo architecto velit dicta odit porro? Id deserunt ipsa voluptatem aliquid blanditiis corporis, quasi debitis repudiandae iste assumenda hic eaque placeat dolorum doloremque numquam dolore sunt, sint ducimus autem neque provident fugit eveniet asperiores illum? Earum magnam iure, ipsum quas nemo! Ipsam sapiente velit in distinctio cumque neque eos voluptate necessitatibus, non, tempora, impedit. Fugit illum sit quaerat voluptatibus, soluta doloribus praesentium non, error accusantium tempore culpa fugiat minus, maiores aliquid odit dolorem tempora adipisci laboriosam esse! Ullam quisquam, repellat sint ea quibusdam explicabo doloremque, incidunt eligendi molestiae iure animi rerum nostrum quasi beatae, sequi dolorem earum placeat eius corrupti perspiciatis consequatur soluta nihil magnam quae. Laudantium blanditiis quo temporibus a debitis, illum eos nihil officia id enim nam ad esse, suscipit, laborum, veniam ea voluptatum deleniti placeat. Quos quo, vel. Enim repellendus obcaecati, nam reprehenderit recusandae a, laboriosam, quibusdam quam perferendis aut neque! Magnam, expedita dolorem nulla sint dolore earum assumenda, cupiditate adipisci explicabo. Eveniet dicta obcaecati nulla fugit vero doloremque consequatur at maxime quod temporibus, voluptatem cupiditate nisi impedit accusamus iure! Et quia laudantium beatae.</br>(End of Sushi section)  <a href="#header-nav">Back To Top</a></div>
+    </div>
+  </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

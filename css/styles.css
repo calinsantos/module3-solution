@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Architects Daughter', cursive;
+	overflow: auto;
+	margin-left: 0;
+  	margin-right: 0;
+}
+
+/* *** HEADER *** */
+#header-nav {
+	background-color: #b5b5b5;
+	border-radius: 0;
+	border: 0.5px solid black;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Architects Daughter', cursive;
+  color: black;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.text-center {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.25em;
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+}
+
+#Chicken, #Beef, #Sushi {
+	color: black;
+	text-decoration: none;
+	/***********************/
+	background-color: #BABABA;
+  	border: 1px solid black;
+  	width: auto;
+  	height: auto;
+  	margin-right: 0;
+  	margin-left: 20px;
+  	margin-bottom: 20px;
+  	padding: 15px;
+}
+
+#nav-list {
+	text-align: center;
+	font-size: 1.15em;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: lightblue;
+	overflow: hidden;
+}
+
+a.hidden-lg.hidden-md.hidden-sm {
+	border: 1px solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+p.text-center {
+	margin-bottom: 15px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
